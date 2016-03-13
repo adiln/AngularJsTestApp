@@ -9,64 +9,6 @@
 
 }
 
-body
-{
-    background-color: #fcfcfc;
-}
-.center-div
-{
-    position: absolute;
-    margin: auto;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 300px;
-    height: 200px;
-    background-color: #ccc;
-    border-radius: 3px;
-}
-
-
-.styled-select {
-    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
-    height: 29px;
-    overflow: hidden;
-    width: 240px;
-    overflow-y: scroll;
-}
-
-.styled-select select {
-    background: transparent;
-    border: none;
-    font-size: 14px;
-    height: 29px;
-    padding: 5px; /* If you add too much padding here, the options won't show in IE */
-    width: 268px;
-
-}
-
-.styled-select.slate {
-    background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
-    height: 34px;
-    width: 240px;
-
-}
-
-.styled-select.slate select {
-    border: 1px solid #ccc;
-    font-size: 16px;
-    height: 34px;
-    width: 268px;
-
-}
-
-
-
-
-
-
-
 .tooltip {
     display: none;
     position: absolute;
@@ -122,12 +64,6 @@ body
     border-left: 5px solid #222;
 }
 
-
-
-
-
-
-
 .dropdown.dropdown-scroll .dropdown-menu {
     max-height: 200px;
     width: 300px;
@@ -164,5 +100,9 @@ ul.dropdown-menu a:hover  {
     margin-top:8px;
 }
 
-
+#notes-app {
+    position: fixed;
+    bottom: 0;
+    width: 30%;
+}
 

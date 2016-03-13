@@ -1,16 +1,3 @@
-angular.module('app').directive('toggle', function(){
-    return {
-        restrict: 'A',
-        link: function(scope, element, attrs){
-            var setTitle = attrs.title;
-            attrs.$set('title', setTitle);
-            $(element)
-                .attr('title',scope.$eval(attrs.tooltip))
-                .tooltip({placement: "right"});
-        }
-    };
-});
-
 
 //angular.module('app').directive('tooltip', function () {
 //    return {
