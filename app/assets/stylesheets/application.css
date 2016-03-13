@@ -1,0 +1,168 @@
+
+.centered {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    width: 100%;
+
+}
+
+body
+{
+    background-color: #fcfcfc;
+}
+.center-div
+{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+
+.styled-select {
+    background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+    height: 29px;
+    overflow: hidden;
+    width: 240px;
+    overflow-y: scroll;
+}
+
+.styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    height: 29px;
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 268px;
+
+}
+
+.styled-select.slate {
+    background: url(http://i62.tinypic.com/2e3ybe1.jpg) no-repeat right center;
+    height: 34px;
+    width: 240px;
+
+}
+
+.styled-select.slate select {
+    border: 1px solid #ccc;
+    font-size: 16px;
+    height: 34px;
+    width: 268px;
+
+}
+
+
+
+
+
+
+
+.tooltip {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    padding: 7px 10px;
+    max-width: 250px;
+    color: #fff;
+}
+
+.tooltip-show {
+    display: inherit;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.tooltip-down .tooltip-arrow {
+    top: -5px;
+    left: 50%;
+    margin-left: -5px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #222;
+}
+
+.tooltip-up .tooltip-arrow {
+    bottom: -5px;
+    left: 50%;
+    margin-left: -5px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #222;
+}
+
+.tooltip-right .tooltip-arrow {
+    left: -5px;
+    top: 50%;
+    margin-top: -3px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid #222;
+}
+
+.tooltip-left .tooltip-arrow {
+    right: -5px;
+    top: 50%;
+    margin-top: -3px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #222;
+}
+
+
+
+
+
+
+
+.dropdown.dropdown-scroll .dropdown-menu {
+    max-height: 200px;
+    width: 300px;
+    overflow: auto;
+}
+.search-control {
+    padding: 5px 10px;
+}
+
+.dd-search-box{
+    background-color: rgba(41, 109, 173, 0.09);
+    color: #080808;
+}
+
+.dd-btn{
+    background-color: rgba(3, 111, 185, 0.41);
+}
+
+ul.dropdown-menu {
+    background-color: rgba(3, 111, 185, 0.41);
+}
+
+ul.dropdown-menu a {
+    background-color: rgba(3, 111, 185, 0.41);
+}
+ul.dropdown-menu a:hover  {
+    background-color: rgba(25, 13, 185, 0.89);
+    color: #ffffff;
+}
+
+.caret-custom{
+    float:right;
+    height:12px;
+    margin-top:8px;
+}
+
+
+
